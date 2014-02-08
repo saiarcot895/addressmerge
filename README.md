@@ -10,7 +10,8 @@ To install the minimal requirements for addressmerge and imposm on Ubuntu, using
 
 ```
 sudo apt-get install build-essential python-dev protobuf-compiler \
-					 libprotobuf-dev python-psycopg2 python-pip
+					 libprotobuf-dev python-psycopg2 python-pip \
+					 libtokyocabinet-dev
 ```
 
 You can then install imposm for everyone or in a virtual environment
